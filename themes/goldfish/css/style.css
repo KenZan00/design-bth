@@ -65,6 +65,27 @@ body {
 
 .title p {
     font-style: italic;
+} 
+
+.nav a {
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    border-bottom: 4px solid #94d89f;
+}
+
+/* main */
+
+.main {
+    width: 70%;
+    margin: 0 auto;
+}
+
+p {
+    margin-bottom: 1.4rem;
+    font-size: 1.1rem;
 }
 
 /* Footer */
@@ -72,11 +93,14 @@ body {
 .footer {
     display: flex;
     justify-content: space-between;
-    border-top: 1px solid #222;
+    border-top: 4px solid #94d89f;
+    background-color: #222;
+    color: #fff;
+    padding: 4rem 6rem;
 }
 
 .footer a {
-    color: #222;
+    color: #fff;
 }
 
 .footer .social {
@@ -87,7 +111,7 @@ body {
 
 body {
     font-family: sans-serif;
-    line-height: 1.5rem;
+    line-height: 1.4;
     color: #444;
 }
 
