@@ -1,8 +1,11 @@
 ---
-Logo: image/leaf_256x256.png
-Tagline: My portfolio.
+Logo: image/me2.png
+Tagline: Student at Blekinge Tekniska Högskola.
 Social:
     - title: Link till sidans github repo.
-      url: https://github.com/dbwebb-se/design-v3
+      url: https://github.com/KenZan00/design-bth
       icon: github
+    - title: Link to course site.
+      url: https://dbwebb.se/design
+      icon: leaf
 ---

@@ -3,9 +3,17 @@ Title: Home
 Description: This is our index page.
 ---
 
-Home page
+Om mig
 ==========================
 
-The source for this page is in `content/index.md`.
+Hej, mitt namn är Kenny och jag studerar just nu webdesign vid BTH. Förutom detta har jag lite andra fritidsintressen som ibland får vara med på schemat.
 
-This is a sample home page written in markdown with some frontmatter defined.
+
+* Tennis
+* Akvarium
+* Motorcyklar
+
+
+Just nu skulle jag dock säga att större delen av tiden går att jobba och studera så hobbys tittar in någon gång per vecka där det går.
+
+![me](%assets_url%/img/rainbowfish_orange.jpg){.me}
