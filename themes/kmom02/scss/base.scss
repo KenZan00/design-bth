@@ -1,3 +1,42 @@
+/* Header */
+.header, .site-header {
+    display: flex;
+    justify-content: space-between;
+}
+
 body {
+    display: flex;
+    flex-direction: column;
     background-color: $background-color;
+}
+
+.main {
+    width: 70%;
+    margin: 0 auto;
+}
+
+* {
+    box-sizing: border-box;
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+}
+
+ol, ul {
+    padding-left: 1.5em;
+    
+}
+
+li {
+    line-height: 1.4;
+    font-size: 1.5em;
+    margin-bottom: 1.96rem;
+}
+
+.hidden {
+    display: none !important;
+}
+
+html, body {
+    height: 100%;
 }
