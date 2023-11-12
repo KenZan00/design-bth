@@ -1,0 +1,42 @@
+
+
+$old-fashioned-font: 'Times New Roman', serif;
+$modern-font: Verdana, sans-serif;
+$base-line-height: 1.4;
+$base-font-size: 2rem;
+
+@mixin line-height-and-font-size {
+    line-height: $base-line-height;
+    font-size: $base-font-size;
+}
+
+
+.old-fashioned {
+    margin-bottom: 1.96rem;
+    @include line-height-and-font-size;
+    
+}
+
+.old-fashioned::first-letter {
+    initial-letter: 4;
+    color: rgb(249, 164, 6);
+    font-weight: bold;
+    //margin-right: .50em;
+    font-size: 3em;
+}
+
+.modern { 
+    width: 64rem;
+    margin-bottom: 1.96rem;
+    margin: 1.96rem auto;
+    color: #333;
+    letter-spacing: 1px;
+
+    @include line-height-and-font-size;
+}
+
+.worst-ever {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: -1px;
+    background-color: rgb(168, 30, 210);
+}
