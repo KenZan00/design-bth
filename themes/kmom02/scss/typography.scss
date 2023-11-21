@@ -30,7 +30,10 @@ p, td, th, li, dd {
     overflow-wrap: break-word;
     word-wrap: break-word;
     text-decoration: none;
-    margin-bottom: 1,96rem;
+    margin-bottom: 20px;
+    font-family: $main-font;
+
+    @include line-height-and-font-size;
 }
 
 h1, h2, h3, h4, h5, h6 {
