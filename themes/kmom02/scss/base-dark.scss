@@ -1,17 +1,19 @@
 /* Header */
+.header {
+    background: $gradient-background;
+    color: $font-color;
+    border-bottom: 4px solid $accent-color;
+}
+
 .header, .site-header {
     display: flex;
     justify-content: space-between;
 }
 
-.header {
-    border-bottom: 4px solid $accent-color;
-}
-
 body {
     display: flex;
     flex-direction: column;
-    background: $gradient-background;
+    background-color: $background-color;
 }
 
 .main {
@@ -31,12 +33,6 @@ ol, ul {
     
 }
 
-/*li {
-    line-height: 1.4;
-    font-size: 1.5em;
-    margin-bottom: 1.96rem;
-}*/
-
 .hidden {
     display: none !important;
 }
@@ -48,12 +44,19 @@ html, body {
 img {
     padding-top: 1rem;
     padding-bottom: 1rem;
-    border-radius: 12px;
+    filter: brightness(90%);
+}
+
+a {
+    font: $main-font;
+    color: $font-color;
+    text-decoration: none;
 }
 
 .site-link {
     text-decoration: none;
     position: relative;
     display: inline-block;
-    color: $accent-color-dark;
+    color: $accent-color;
 }
+

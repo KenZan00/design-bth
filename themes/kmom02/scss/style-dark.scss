@@ -5,18 +5,18 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import '../../shared/fontawesome/scss/regular';
 
 @import '../../node_modules/normalize.css/normalize';
-@import 'variables';
-@import 'title-nav';
+@import 'variables-dark';
+@import 'title-nav-dark';
 
 @import 'typography';
 
-@import 'base';
-@import 'footer';
+@import 'base-dark';
+@import 'footer-dark';
 
 @import 'blockquotes';
 @import 'code';
 @import 'technologies';
-@import 'analysis';
+@import 'analysis-dark';
 
 @import 'test';
 
@@ -25,6 +25,3 @@ body {
     color: $font-color;
 }
 
-/* {
-    color: $font-color;
-}*/

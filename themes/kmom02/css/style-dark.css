@@ -6427,6 +6427,10 @@ template {
   padding: 3em 3em 3em 0;
 }
 
+.logo {
+  filter: brightness(90%);
+}
+
 @media (max-width: 767px) {
   .title, .logo {
     padding: 1em 1em 1em 0;
@@ -6439,7 +6443,7 @@ template {
   }
 }
 .title * {
-  color: #111;
+  color: #e0fbfc;
   text-decoration: none;
 }
 
@@ -6448,12 +6452,13 @@ template {
 }
 
 .nav a {
+  color: #e0fbfc;
   font-size: 2rem;
   text-decoration: none;
 }
 
 .nav a:hover {
-  border-bottom: 4px solid #5C7592;
+  border-bottom: 4px solid #95B326;
 }
 
 p {
@@ -6498,19 +6503,21 @@ img {
 }
 
 /* Header */
+.header {
+  background: linear-gradient(to right, #2a2a2a, #6A3F99);
+  color: #e0fbfc;
+  border-bottom: 4px solid #95B326;
+}
+
 .header, .site-header {
   display: flex;
   justify-content: space-between;
 }
 
-.header {
-  border-bottom: 4px solid #5C7592;
-}
-
 body {
   display: flex;
   flex-direction: column;
-  background: linear-gradient(to right, #A2BEB7, #A4B0BE);
+  background-color: #2a2a2a;
 }
 
 .main {
@@ -6529,11 +6536,6 @@ ol, ul {
   padding-left: 1.5em;
 }
 
-/*li {
-    line-height: 1.4;
-    font-size: 1.5em;
-    margin-bottom: 1.96rem;
-}*/
 .hidden {
   display: none !important;
 }
@@ -6545,27 +6547,33 @@ html, body {
 img {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  border-radius: 12px;
+  filter: brightness(90%);
+}
+
+a {
+  font: "Playfair Display", serif;
+  color: #e0fbfc;
+  text-decoration: none;
 }
 
 .site-link {
   text-decoration: none;
   position: relative;
   display: inline-block;
-  color: #0B294C;
+  color: #95B326;
 }
 
 /* Footer */
 .footer {
   display: flex;
   justify-content: space-between;
-  border-top: 4px solid #5C7592;
-  background: linear-gradient(to right, #A2BEB7, #A4B0BE);
-  color: #00291E;
+  border-top: 4px solid #95B326;
+  background: linear-gradient(to right, #2a2a2a, #6A3F99);
+  color: #e0fbfc;
   padding: 4rem 6rem;
 }
 .footer a {
-  color: #00291E;
+  color: #e0fbfc;
   text-decoration: none;
 }
 .footer .social {
@@ -6675,7 +6683,7 @@ pre code {
 .tech-menu a {
   font-size: 1.6rem;
   text-decoration: none;
-  color: #00291E;
+  color: #e0fbfc;
 }
 .tech-menu a:hover {
   border-bottom: 4px solid #94d89f;
@@ -6708,11 +6716,14 @@ pre code {
 }
 .analysis-container a {
   font: "Playfair Display", serif;
-  color: #00291E;
-  background-color: #5C7592;
+  color: #e0fbfc;
+  background-color: #6A3F99;
   padding: 10px 20px;
   border-radius: 5px;
   text-decoration: none;
+}
+.analysis-container a:hover {
+  color: #95B326;
 }
 
 @media (max-width: 768px) {
@@ -6751,10 +6762,6 @@ pre code {
 }
 
 body {
-  background-color: #A2BEB7;
-  color: #00291E;
+  background-color: #2a2a2a;
+  color: #e0fbfc;
 }
-
-/* {
-    color: $font-color;
-}*/

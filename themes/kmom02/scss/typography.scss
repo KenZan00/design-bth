@@ -9,6 +9,7 @@ p {
     font-family: $main-font;
     @include line-height-and-font-size;
     margin-bottom: 1.96rem;
+    margin-top: 1.96rem;
 }
 
 h1,

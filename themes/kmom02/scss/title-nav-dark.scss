@@ -4,6 +4,10 @@
     padding: 3em 3em 3em 0;
 }
 
+.logo {
+    filter: brightness(90%);
+}
+
 @media (max-width: 767px) {
     .title, .logo {
         padding: 1em 1em 1em 0;
@@ -19,7 +23,7 @@
 }
 
 .title * {
-    color: #111;
+    color: $font-color;
     text-decoration: none;
 }
 
@@ -30,6 +34,7 @@
 
 
 .nav a {
+    color: $font-color;
     font-size: 2rem;
     text-decoration: none;
 }
