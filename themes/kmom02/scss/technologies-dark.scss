@@ -1,0 +1,102 @@
+.landingpage {
+    display: grid;
+    gap: 1rem 2rem;
+
+}
+
+
+.landingpage h1 {
+    grid-column: span 3;
+
+    a {
+        font-size: 2rem;
+        text-decoration: none;
+    }
+    
+    a:hover {
+        border-bottom: 4px solid #94d89f;
+    }
+}
+
+.box {
+    border: 3px solid #CCC;
+    padding: 1rem;
+}
+
+.box:hover {
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px 0;
+}
+
+.html {
+    grid-column: 2 / span 2;
+}
+
+.javascript {
+    grid-column: 1 / span 2;
+}
+
+.python {
+    grid-column: 1 / span 3;
+}
+
+.sqlite {
+    grid-column: 2/ span 2;
+}
+
+
+@media (max-width: 768px) {
+    .landingpage h1 {
+        grid-column: span 1;
+    }
+  
+    .box,
+    .html,
+    .javascript,
+    .python,
+    .sqlite {
+        grid-column: 1 / span 1;
+    }
+}
+
+
+.single-technology {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.tech-menu {
+    width: 30%;
+
+    a {
+        font-size: 1.6rem;
+        text-decoration: none;
+        color: $font-color;
+    }
+    
+    a:hover {
+        border-bottom: 4px solid #94d89f;
+    }
+}
+
+.tech-content {
+    width: 60%;
+}
+
+@media (max-width: 768px) {
+    .tech-menu {
+        display: none;
+    }
+
+    .tech-content {
+        width: 80%;
+        text-align: center;
+        margin: 0 auto;
+    }
+}
+
+.landingpage .box a {
+    color: $font-color;
+}
+  

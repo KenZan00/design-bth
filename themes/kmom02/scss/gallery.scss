@@ -1,0 +1,66 @@
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem 2rem;
+    justify-content: space-between;
+}
+
+.gallery h1 {
+    grid-column: span 3;
+
+    a {
+        font-size: 2rem;
+        text-decoration: none;
+        color: #272727;
+    }
+    
+    a:hover {
+        border-bottom: 4px solid #94d89f;
+    }
+}
+  
+.gallery-item {
+    width: 100%;
+}
+
+.gallery-item a {
+    display: block;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    .gallery {
+        grid-template-columns: 1fr;
+    }
+    
+    .gallery h1 {
+        grid-column: span 1;
+    }
+
+    .gallery-item {
+        grid-column: 1 / span 1;
+    }
+}
+
+//iFrame scss och responsiv video
+.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}

@@ -1,0 +1,19 @@
+{% include 'incl/header.twig' %}
+
+<body>
+    {% include 'incl/nav.twig' %}
+
+    <img class="flash-img" src="{{ base_url }}/image/waves.jpg&f=brightness,-50">
+
+
+    <div class="main" role="main">
+            {{ content }}
+        <div class="embed-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/WK2ekxa42Qk?si=rMHpfaoc8ibrZXh-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    {% include 'incl/footer.twig' %}
+</body>
+
+</html>

@@ -1,4 +1,4 @@
-#---
+---
 Title: Test
 Description: Testsida.
 ---
@@ -25,3 +25,17 @@ Hör nu på, goävanner, så ska jag för er berätta vad vår Emil gjorde en da
 <p class="worst-ever">
 Nästa hyss han gjorde var när han i grönsakssoppan dök på huvet ner og sen satt där stenhårt fast uti mor sins soppskål, ty hans öron var för stora, så det blev att fara till doktorn det med hast. Hujedamej, sånt barn han var, tror inte också ni, att den som blott en soppskål har vill ej ha gossar i?
 </p>
+
+
+
+![Bild med röd ton](%base_url%/image/movement.jpg?w=700&f=negate)
+
+![Bild med inverterade färger](%base_url%/image/movement.jpg?w=700&f=colorize,60,-20,-20,0)
+
+![Ritning](%base_url%/image/movement.jpg?w=700&&f=edgedetect)
+
+![movement.jpg](%base_url%/image/movement.jpg)
+
+![movement.jpg](%base_url%/image/movement.png&save-as=jpg&sharpen&q=45)
+
+
