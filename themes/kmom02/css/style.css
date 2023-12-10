@@ -6468,6 +6468,9 @@ h1,
 h2,
 h3 {
   font-family: "Lato", sans-serif;
+  text-decoration: underline;
+  text-decoration-color: #C19198;
+  text-decoration-style: wavy;
 }
 
 /* Typografy */
@@ -6482,14 +6485,14 @@ p, td, th, li, dd {
   overflow-wrap: break-word;
   word-wrap: break-word;
   text-decoration: none;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
   font-family: "Playfair Display", serif;
   line-height: 1.4;
   font-size: 1.5rem;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  margin-bottom: 0.6em;
+  margin-bottom: 0.2em;
   font-weight: bold;
 }
 
@@ -6709,7 +6712,6 @@ pre code {
 .analysis-container a {
   font: "Playfair Display", serif;
   color: #00291E;
-  background-color: #5C7592;
   padding: 10px 20px;
   border-radius: 5px;
   text-decoration: none;

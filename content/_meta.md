@@ -1,5 +1,5 @@
 ---
-Logo: image/me2.png
+Logo: image/me2.jpg
 Tagline: Student at Blekinge Tekniska Högskola.
 Social:
     - title: Link till sidans github repo.

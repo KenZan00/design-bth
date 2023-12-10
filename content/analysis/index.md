@@ -15,7 +15,7 @@ Analys
         <h1><a href="%base_url%?analysis/02_load">Load</a></h1>
     </div>
     <div class="analysis">
-        <h1><a href="%base_url%?analysis/03_design">Design</a></h1>
+        <h1><a href="%base_url%?analysis/03_designprincip">Design</a></h1>
     </div>
 </div>
 

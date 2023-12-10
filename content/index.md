@@ -21,4 +21,34 @@ Om tid finnes över efter detta så tittar ibland motorcykelhobbyn in. Jag har k
 
 Just nu skulle jag dock säga att större delen av tiden går åt att jobba och studera, så hobbys tittar in någon gång per vecka där det går.
 
-![me](%assets_url%/img/rainbowfish_orange.jpg){.me}
+<div class="gallery">
+<div class="gallery-item">
+<a href="%base_url%/image/diskus1.jpg" target="_blank">
+    <picture>
+        <source media="(min-width: 668px)" srcset="%base_url%/image/diskus1.jpg&w=475&q=50">
+        <source media="(min-width: 376px)" srcset="%base_url%/image/diskus1.jpg&w=360&q=70">
+        <img src="%base_url%/image/diskus1.jpg&w=667" alt="Diskusfisk">
+    </picture>
+</a>
+</div>
+
+<div class="gallery-item">
+<a href="%base_url%/image/rainbowfish_orange.jpg" target="_blank">
+    <picture>
+        <source media="(min-width: 668px)" srcset="%base_url%/image/rainbowfish_orange.jpg&w=475&q=50">
+        <source media="(min-width: 376px)" srcset="%base_url%/image/rainbowfish_orange.jpg&w=360&q=70">
+        <img src="%base_url%/image/rainbowfish_orange.jpg&w=667" alt="Regnbågsfisk">
+    </picture>
+</a>
+</div>
+
+<div class="gallery-item">
+<a href="%base_url%/image/diskus2.jpg" target="_blank">
+    <picture>
+        <source media="(min-width: 668px)" srcset="%base_url%/image/diskus2.jpg&w=475&q=50">
+        <source media="(min-width: 376px)" srcset="%base_url%/image/diskus2.jpg&w=360&q=70">
+        <img src="%base_url%/image/diskus2.jpg&w=667" alt="Diskusfisk nummer 2">
+    </picture>
+</a>
+</div>
+</div>
